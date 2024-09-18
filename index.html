@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <title>Jornada ao Oeste</title>
+</head>
+
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="sun wukong.png" alt="">
+            <p>O monge *Tang Sanzang* recebe uma missão do Buda para buscar as escrituras sagradas na Índia, com o
+                objetivo de salvar a China de sua decadência espiritual.</p>
+            <button class="btn-proximo" data-proximo="1">Começar</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="encruzilhada.jpg">
+            <p>Tang Sanzang parte em sua jornada e chega a uma encruzilhada :</p>
+            <button class="btn-proximo" data-proximo="4">1. Ele decide seguir o caminho mais curto, que parece mais
+                perigoso, com montanhas e florestas densas.</button>
+
+            <button class="btn-proximo" data-proximo="2">2. Ele escolhe o caminho mais longo e seguro, que passa por vilarejos amigáveis.</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="rio sacerdote.jpg">
+            <p>Tang Sanzang* agora precisa atravessar um grande rio. Ele pode:</p>
+            <button class="btn-proximo" data-proximo="3">
+                1. Pedir ajuda aos pescadores do vilarejo para construir uma balsa mais segura.</button>
+            <button class="btn-proximo" data-proximo="4">2. Cruzar o rio sozinho em uma pequena balsa improvisada.</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <img src="cap 2 oficial.jpg" alt="">
+            <p>Encontro com Sun Wukong</p>
+            <button class="btn-proximo" data-proximo="5">Próximo.</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="GAME OVER.png" alt="">
+            <p>Volte ao ínicio.</p>
+            <button class="btn-proximo" data-proximo="0">VOLTAR.</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <img src="sun wukong e sacerdote.jpg">
+            <p>Tang Sanzang encontra o Rei Macaco, Sun Wukong. Sun Wukong se torna seu primeiro discípulo.</p>
+            <button class="btn-proximo" data-proximo="4">1. Tang Sanzang rejeita a ajuda de Sun</button>
+            <button class="btn-proximo" data-proximo="6">2. Tang Sanzang aceita Sun Wukong como seu protetor.</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <img src="zhu bajie.jpg">
+            <p>Sun Wukong e Tang Sanzang encontram Zhu Bajie, que foi transformado em meio-porco como punição por seus pecados.</p>
+            <button class="btn-proximo" data-proximo="7">1. Eles aceitam Zhu Bajie como um aliado, apesar de suas falhas.</button>
+            <button class="btn-proximo" data-proximo="4">2. Eles ignoram Zhu Bajie e continuam a jornada.</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <img src="sha wujing.jpg">
+            <p>Tang Sanzang, Sun Wukong, e Zhu Bajie encontram Sha Wujing, outro ser com um passado turbulento que busca redenção.</p>
+            <button class="btn-proximo" data-proximo="4">1. Eles desconfiam de Sha Wujing e não o deixam entrar no grupo.</button>
+            <button class="btn-proximo" data-proximo="8">2.  Eles aceitam Sha Wujing como parte da equipe.</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <img src="reino ocidental.jpg">
+            <p>Chegada ao reino ocidental</p>
+            <button class="btn-proximo" data-proximo="9">Próximo.</button>
+            </div>
+
+        <div class="passo" id="passo-9">
+            <img src="tang sanzang.jpg">
+            <p>*Tang Sanzang* e seus discípulos finalmente chegam ao Reino Ocidental, onde o Buda reside. Eles devem enfrentar um último desafio para provar seu valor.
+            </p>
+            <button class="btn-proximo" data-proximo="10">1. Pedir a ajuda do Buda e de seus discípulos para completar a jornada.</button>
+            <button class="btn-proximo" data-proximo="4">2. Tentar atravessar a última barreira sozinhos, sem a ajuda do Buda.</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <img src="jornada ao oeste.jpg">
+            <p> Tang Sanzang retorna à China com as escrituras, e com seus discípulos ao seu lado, ele compartilha o conhecimento sagrado com seu povo, trazendo iluminação e paz ao reino.
+            </p>
+            <button class="btn-proximo" data-proximo="11">Fim.</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="fim..jpg">
+            <p>Obrigado por jogar.</p>
+            <button class="btn-proximo" data-proximo="0">Voltar ao inicio.</button>
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
